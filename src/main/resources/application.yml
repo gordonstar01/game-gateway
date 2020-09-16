@@ -28,10 +28,10 @@ spring:
           uri: http://localhost:8085
           predicates:
             - Path=/mypages/**
-        - id: payment
+        - id: email
           uri: http://localhost:8086
           predicates:
-            - Path=/accounts/**
+            - Path=/emails/**
       globalcors:
         corsConfigurations:
           '[/**]':
