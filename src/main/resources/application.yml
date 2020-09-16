@@ -71,10 +71,10 @@ spring:
           uri: http://game-mypage:8080
           predicates:
             - Path=/mypages/**
-        - id: payment
-          uri: http://game-payment:8080
+        - id: email
+          uri: http://game-email:8080
           predicates:
-            - Path=/accounts/**
+            - Path=/email/**
       globalcors:
         corsConfigurations:
           '[/**]':
